@@ -35,7 +35,10 @@ header {
     text-align: right;
     line-height: 8em;
 }
-
+#carousel{
+    margin: 0 0 10px;
+    text-align: center;
+}
 /* MENU */
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -183,7 +186,7 @@ body {
 
 @media screen and (max-width: 650px) {
     .carousel>.wrap {
-        overflow: hidden;
+        overflow: scroll;
         border-radius: 4px;
     }
     .carousel {
@@ -201,6 +204,21 @@ body {
     .carousel {
         position: relative;
         height: auto;
+    }
+    .carousel::after {
+        content: "";
+        pointer-events: none;
+        position: absolute;
+        z-index: 4;
+        bottom: -4px;
+        left: 0;
+        background: none;
+        height: 4px;
+        border-radius: 4px;
+        opacity: 0;
+        width: var(--scrollWidth, 0);
+        left: var(--scrollLleft, 0);
+        transition: opacity 0.2s, bottom 0.2s;
     }
 }
 
