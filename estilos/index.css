@@ -373,6 +373,7 @@ body {
     border-radius: 10px;
 }
 
+
 #crear_producto button {
     float: right;
     width: 150px;
@@ -438,6 +439,18 @@ body {
     margin-left: 3%;
     margin-right: 2%;
 }
+
+
+
+
+#precio button {
+    height: auto;
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
 /* responsive producto */
 @media screen and (max-width: 650px) {
 #categoria {
@@ -472,7 +485,13 @@ body {
     margin-left: 3%;
     margin-right: 2%;
 }
-
+#precio button {
+    height: auto;
+    width: 94%;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
 /* bloques del cuerpo responsive */
 
 @media screen and (max-width: 650px) {
