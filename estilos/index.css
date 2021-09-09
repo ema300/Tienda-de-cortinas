@@ -308,7 +308,7 @@ body {
     margin-right: 2%;
     border-radius: 10px;
     /* background-color: #000000; */
-     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); 
+     box-shadow: 0px 0px 20px rgb(32 32 32 / 86%); 
 }
 
 
@@ -331,6 +331,7 @@ body {
 
 }
 @media screen and (max-width: 650px) {
+   
     #imagenes {
         width: 94%;
         height: auto;
@@ -338,9 +339,8 @@ body {
         margin-left: 3%;
         margin-right: 2%;
         background-color: #000000;
-        /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); */
+        box-shadow: 0px 0px 20px rgb(32 32 32 / 86%);
     }
-  
    
 }
 
