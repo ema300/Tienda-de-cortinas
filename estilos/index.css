@@ -14,7 +14,7 @@ body {
 
 /* jhsdjka */
 #contenedor {
-    max-width: 95%;
+    max-width: 1000px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -22,24 +22,31 @@ body {
 }
 /* Portada */
 #titulo {
-    text-align: left;
+    text-align: center;
     color: #420246b0;
     background-color: #885b8699;
 }
 .portada{
     position: relative;
-    display: inline-block;
+   
     text-align: center;
 }
+
+
 #imagen_portada {
-    width: 94%;
-    height: auto;
-    margin-top: 2%;
-    margin-left: 3%;
-    margin-right: 2%;
+    width: 700px;
+    height: 575px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+    position: relative;
+ 
     background-color: #000000;
     box-shadow: 0px 0px 20px rgb(32 32 32 / 86%);
 }
+
+
 @media screen and (max-width: 650px) {
     #imagen_portada {
         width: 94%;
@@ -47,22 +54,12 @@ body {
         margin-top: 2%;
         margin-left: 3%;
         margin-right: 2%;
-        background-color: #000000;
-        box-shadow: 0px 0px 20px rgb(32 32 32 / 86%);
+        
+     
     }
 }
 
-.texto-encima{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 /* ENCABEZADO */
 
@@ -167,7 +164,7 @@ MARQUEE {
     bottom: 0;
     z-index: 2;
     width: 50px;
-    font-size: 80px;
+    font-size: 80pxconte;
     text-indent: -30px;
     line-height: 200px;
     font-family: monospace;
