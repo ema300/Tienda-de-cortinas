@@ -6,7 +6,20 @@
 }
 
 
+/* #701A75
+ #C084FC
 
+*/
+
+#trabajos_realizados {
+  
+    background-color: #701A75;
+    padding: 14px;
+    border-radius: 10px;
+}
+b{
+    color: #701A75  ;
+}
   
 body {
     background-color: rgb(255, 255, 255);
@@ -27,15 +40,26 @@ body {
 /* Portada */
 #titulo {
     text-align: center;
-    color: #420246b0;
-    background-color: #885b8699;
+   ;
+    background-color: #C084FC;
 }
 .portada{
     position: relative;
    
     text-align: center;
 }
-
+#fondo_diseño_superior{
+    width: 93%;
+    height: auto;
+    /* float: left; */
+    /* margin-top: 2%; */
+    margin-left: 3%;
+    /* margin-right: 2%; */
+    /* margin-block-end: 24px; */
+    border-radius: 10px;
+    color: #030a0a;
+    background-color: #701A75;
+}
 
 #imagen_portada {
     width: 700px;
@@ -102,7 +126,7 @@ header {
 /* CUERPO */
 
 MARQUEE {
-    background-color: #3e1a2e;
+    background-color: #701A75;
     color: #EEE;
 }
 
@@ -329,7 +353,7 @@ body {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background: #3e1a2e;
+    background: #701A75;
     width: 100%;
     border: 0;
     padding: 15px;
@@ -370,6 +394,11 @@ body {
     /* margin-block-end: 24px; */
     /* border-radius: 10px; */
     /* background-color: #a6a6a6; */
+}
+#diseño_superior {
+    height: 166px;
+    margin-top: 27px;
+    border-radius: 21px;
 }
 #diseño {
     height: 267px;
@@ -568,7 +597,7 @@ body {
 }
 
 footer {
-    background-color: darkgray;
+    background-color: #C084FC;
     text-align: center;
     border-radius: 5px;
 }
