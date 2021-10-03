@@ -41,7 +41,7 @@ body {
 #titulo {
     text-align: center;
    ;
-    background-color: #C084FC;
+    background-color:#d9c0f1;
 }
 .portada{
     position: relative;
@@ -597,7 +597,7 @@ body {
 }
 
 footer {
-    background-color: #C084FC;
+    background-color: #d9c0f1;
     text-align: center;
     border-radius: 5px;
 }
